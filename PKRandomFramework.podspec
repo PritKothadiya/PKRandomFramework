@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PKRandomFramework.podspec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint PKRandomFramework.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |spec|
 
+  
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
@@ -15,9 +16,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PKRandomFramework.podspec"
+  spec.name         = "PKRandomFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PKRandomFramework.podspec."
+  spec.summary      = "A short description of PKRandomFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-     A short description of PKRandomFramework.podspec. I will update it soon.
+     A short description of PKRandomFramework. I will update it soon.
                    DESC
 
   spec.homepage     = "https://github.com/PritKothadiya/PKRandomFramework"
