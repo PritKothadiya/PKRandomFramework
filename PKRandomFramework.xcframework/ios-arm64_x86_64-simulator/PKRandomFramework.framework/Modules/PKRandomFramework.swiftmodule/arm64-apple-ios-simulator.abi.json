@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PKRandomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RandomStruct",
+        "printedName": "RandomStruct",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "randomFunc",
+            "printedName": "randomFunc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PKRandomFramework12RandomStructV10randomFuncyyFZ",
+            "mangledName": "$s17PKRandomFramework12RandomStructV10randomFuncyyFZ",
+            "moduleName": "PKRandomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17PKRandomFramework12RandomStructV",
+        "mangledName": "$s17PKRandomFramework12RandomStructV",
+        "moduleName": "PKRandomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,11 @@
+framework module PKRandomFramework {
+  umbrella header "PKRandomFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PKRandomFramework.Swift {
+  header "PKRandomFramework-Swift.h"
+  requires objc
+}
