@@ -1,0 +1,16 @@
+PODS:
+  - PKRandomFramework (0.0.1)
+
+DEPENDENCIES:
+  - PKRandomFramework (from `.`)
+
+EXTERNAL SOURCES:
+  PKRandomFramework:
+    :path: "."
+
+SPEC CHECKSUMS:
+  PKRandomFramework: ddce7006d519bec7b050f3fc9ccd7f9374a93fff
+
+PODFILE CHECKSUM: 5f66a8453e1d20ded2b3703e30697f7a2f55addd
+
+COCOAPODS: 1.12.0

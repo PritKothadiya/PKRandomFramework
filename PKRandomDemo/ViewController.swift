@@ -6,14 +6,14 @@
 //
 
 import UIKit
-//import PKRandomFramework
+import PKRandomFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //RandomStruct.randomFunc()
+        RandomStruct.randomFunc()
     }
 
 
